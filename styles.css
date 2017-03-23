@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 
@@ -7,9 +6,7 @@ body {
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
-* {
-  outline: 1px solid lime;
-}
+
 
 .header {
   background-color: #2d2f3b;
@@ -24,18 +21,14 @@ body {
 }
 
 .logo {
-  float:  left;
-  margin-top: 34px;
-  font-size: 1.4rem;
-
+float: left;
+margin-top: 35px;
+font-size: 1.4rem;
 }
-
 .links {
-  float:right;
-  margin-top: 40px;
-  font-size: 0.75rem;
-  color: #4b4e61;
-}
+float: right;
+margin-top: 40px;
+font-size: 0.75rem;}
 
 .links a {
   color: white;
@@ -58,7 +51,29 @@ body {
   max-width: 780px;
   width:90%;
 }
-@media screen and (max-width:550px){
+
+
+
+}
+.service {
+max-width: 940px;
+background-color: #f2f2f2;
+margin-left: auto;
+margin-right: auto;
+color: #666d89;
+padding-top: 69px;
+}
+
+.ourservices {
+  font-size: 1.4rem;
+}
+
+.underheader {
+  padding-top: 33px;
+  font-size: 1.1rem;
+}
+
+@media screen and (max-width:550px)
 
 .logo {
   float: none;
@@ -70,5 +85,4 @@ body {
     float:none;
     margin-top: 15px;
     margin-left: auto;
-    text-align: center;
-}
+    text-align: center;}
