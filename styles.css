@@ -1,15 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-
+* {
+  outline: 1px solid lime;
+}
 body {
   background-color: #f2f2f2;
   margin: 0;
   font-family: 'Lato', sans-serif;
 }
-* {
-  outline: 1px solid lime;
-}
+
 
 .header {
   background-color: #2d2f3b;
@@ -70,17 +70,42 @@ padding-top: 69px;
 }
 
 .ourservices {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .underheader {
-  padding-top: 33px;
+  padding-top: 25px;
   font-size: 1.1rem;
 }
 
 .box1 {
   margin-top: 50px;
+  width: 300px;
+  height: 217px;
 }
+
+.icon1 {
+  float: left;
+}
+
+.header1 {
+  margin-left: 10px;
+  float: left;
+  font-size: 1.1rem;
+}
+
+.text1 {
+  font-size: .7rem;
+  float: right;
+  margin-left: 10px;
+  margin-top: 10px;
+  float: left;
+  width: 220px;
+  height: 57px;
+
+}
+
+
 @media screen and (max-width:550px){
 
 .logo {
