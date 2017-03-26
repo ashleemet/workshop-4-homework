@@ -20,14 +20,13 @@ body {
 .nav {
   max-width: 960px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 
 .logo {
   float:  left;
   margin-top: 34px;
   font-size: 1.4rem;
-
 }
 
 .links {
@@ -62,11 +61,12 @@ body {
 
 .service {
 max-width: 940px;
-background-color: #f2f2f2;
 margin-left: auto;
 margin-right: auto;
+height: 400px;
 color: #666d89;
-padding-top: 69px;
+padding-top: 50px;
+border-bottom:6px solid #ffffff;
 }
 
 .ourservices {
@@ -79,9 +79,9 @@ padding-top: 69px;
 }
 
 .box1 {
-  margin-top: 50px;
+  margin-top: 40px;
   width: 300px;
-  height: 217px;
+  height: 200px;
 }
 
 .icon1 {
@@ -94,6 +94,11 @@ padding-top: 69px;
   font-size: 1.1rem;
 }
 
+.area1 {
+  width: 300px;
+  height: 89px;
+}
+
 .text1 {
   font-size: .7rem;
   float: right;
@@ -102,9 +107,26 @@ padding-top: 69px;
   float: left;
   width: 220px;
   height: 57px;
-
 }
 
+.icon2box {
+width: 300px;
+height: 113px;
+}
+
+.portfolio {
+    background-color: #2d303a;
+    height: 868px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tags {
+  padding-top: 10px;
+  padding-bottom: 14px; }
+
+.textportfolio {
+  font-size: 0.7rem;
+}
 
 @media screen and (max-width:550px){
 
@@ -115,6 +137,7 @@ padding-top: 69px;
   padding-top: 15px; }
 
 .links {
+
     float:none;
     margin-top: 15px;
     margin-left: auto;
